@@ -1,0 +1,260 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Two Column One Page Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (24/1/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro (The CV Inn)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{article} % Font size - 10pt, 11pt or 12pt
+
+\usepackage[hmargin=1.25cm, vmargin=1.5cm]{geometry} % Document margins
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage[hidelinks]{hyperref}
+\usepackage[usenames,dvipsnames]{xcolor} % Allows the definition of hex colors
+\usepackage{fancyhdr}
+\usepackage{titlesec} % Allows creating custom \section's
+\usepackage{enumitem} % Allows changing margin of lists
+\usepackage{tabularx} % Allows to stretch tabular
+\usepackage{tikz}     % Allows drawing the skill boxes
+\usepackage{csquotes}
+
+% Colors for links, text and headings
+\definecolor{text1}{HTML}{2b2b2b} % Main document font color, off-black
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\renewcommand{\headrulewidth}{0pt} % Get rid of the default rule in the header
+
+% Format of the section titles
+\titleformat{\section}{%
+\scshape\Large\raggedright}{}{0em}{}[\color{black}\titlerule]
+
+\titlespacing{\section}{0pt}{0pt}{10pt} % Spacing around titles
+
+% Enables changing margins for certain parts of the document
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist
+
+% Change the margin of bulleted lists
+\setlist[itemize]{leftmargin=16pt}
+
+\begin{document}
+
+\color{text1} % Sets the default text color for the whole document to the color defined as 'text1'
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+% Center the name over the entire width of resume:
+\moveleft.5\hoffset\centerline{\large\bf Samuel J. Broughton}
+% Draw a horizontal line the whole width of resume:
+\moveleft\hoffset\vbox{\hrule width\textwidth height 1pt}\smallskip
+
+% Contact information
+\moveleft.5\hoffset\centerline{\
+  \includegraphics[scale=0.7, trim = 0mm 0.5mm 0mm 0mm]{earth213.pdf}
+  \href{https://sambroughton.com}{sambroughton.com\qquad}
+  \includegraphics[scale=0.025, trim = 0mm 25mm 0mm 0mm]{email19.pdf}
+  \href{mailto:broughtonjsam@gmail.com.com}{broughtonjsam@gmail.com\qquad}
+  \includegraphics[scale=0.018]{telephone5.pdf}
+  \href{tel:+85268260957}{\texttt{+}44 7528 767464}
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{changemargin}{0pt}{0.5pt} % Fix the margins
+
+\begin{minipage}[t]{0.5\textwidth} % Start the left-hand side of the page
+\vspace{0pt} % Trick for alignment
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\begin{changemargin}{5pt}{5pt}
+%------------------------------------------------
+% WORK EXPERIENCE 0
+%------------------------------------------------
+
+\textbf{VoiceBase Centre for Speech and Language Technology}\\
+\par
+\vspace{-10pt}
+Intern Researcher \hfill \textit{Current}\\
+\vspace{-5pt}
+
+\begin{itemize} \itemsep-2pt %reduce space between items
+  \item Using generative adversarial networks for automatic speech recognition data augmentation
+  \item Creating models to learn the style and accent of speech using continuous speaker representations
+\end{itemize}
+
+%------------------------------------------------
+% WORK EXPERIENCE 1
+%------------------------------------------------
+
+\textbf{The University of Sheffield}\\
+\par
+\vspace{-10pt}
+Academic Assistant \hfill \textit{Sept 2019 -- June 2020}\\
+\vspace{-5pt}
+
+\begin{itemize} \itemsep-2pt %reduce space between items
+  \item Demonstrator for first year computer science students for the Web and Internet Technology module. Responsibilities were focused around answering queries about HTML5 , CSS3 and Javascript.
+  \item Student note taker for the Disability and Dyslexia Support Service
+\end{itemize}
+
+%------------------------------------------------
+% WORK EXPERIENCE 2
+%------------------------------------------------
+
+\vspace{5pt}
+\textbf{HSBC Digital Hong Kong}\\
+\par
+ Industrial Placement Trainee \textit{\hfill Sept 2018 -- July 2019} \\
+\vspace{-5pt}
+
+\begin{itemize} \itemsep-2pt %reduce space between items
+  \item Built an image recognition model for food classification for the \textit{Offerbot}.
+  \item Independently built an e-signature capture frontend screen for Hong Kong and Asia Pacific markets in React.
+  \item Used the Haskell programming language and grammars to produce a dummy dataset for NLP intent recognition for benchmarking an internal solution against certain cloud provider solutions.
+  \item Used the Java Spring Framework for the creation of restful APIs. Spring Integration was used specifically for the handling of internal bank processes.
+  \item Apart of a software development team using agile frameworks and methodologies such as Scrum.
+\end{itemize}
+
+%------------------------------------------------
+% WORK EXPERIENCE 3
+%------------------------------------------------
+
+\vspace{5pt}
+\textbf{sambroughton.com}\\
+\par
+\vspace{-10pt}
+Part-time Developer \textit{\hfill Sept 2017 -- present}\\
+\vspace{-5pt}
+
+\begin{itemize} \itemsep-2pt %reduce space between items
+  \item Designed and implemented websites for the companies: Spidfier, Benchwrite, MattHardyDrums and markbroughtonsound. 
+  \item Designed the AMBS Netball Team logo.
+  
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+
+\end{changemargin}
+\end{minipage} % End the left-hand side of the page
+\hfill
+\begin{minipage}[t]{0.44\textwidth} % Start the right-hand side of the page
+\vspace{0pt} % Trick for alignment
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION 0
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{changemargin}{5pt}{5pt}
+
+\textbf{The University of Sheffield} \hfill \textit{ 2016 --  2020}
+\vspace{-5pt}
+\begin{itemize} \itemsep-2pt %reduce space between items
+  \item B.Sc.\ (Hons) Artificial Intelligence and Computer Science with a Year in Industry
+  \item INTERSPEECH2020 paper submission: \enquote{Investigating Deep Neural Structures and their Interpretability in the Domain of Voice Conversion}
+  \item Dissertation Project: \enquote{Non-parallel Conditional Generative Adversarial Neural Networks for Voice Conversion}
+  \item Presenting at the BCUR 2020.
+  \item Member of the High Performance Computing group
+  \item President of the University of Sheffield Squash Club
+  \item Social Sport Leader
+\end{itemize}
+
+\end{changemargin}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION 1
+%----------------------------------------------------------------------------------------
+
+\begin{changemargin}{5pt}{5pt}
+	
+	\textbf{Gosforth Academy} \hfill \textit{ 2014 --  2016}
+	\vspace{-5pt}
+	\begin{itemize} \itemsep-2pt %reduce space between items
+		\item A Levels: Maths (A), Computing (A), Music (A)
+		\item GCSEs: 5 A*'s and 7 A's
+	\end{itemize}
+	
+\end{changemargin}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION 2
+%----------------------------------------------------------------------------------------
+
+\begin{changemargin}{5pt}{5pt}
+	
+	\textbf{Online Courses}
+	\vspace{-5pt}
+	\begin{itemize} \itemsep-2pt %reduce space between items
+		\item \enquote{Machine Learning A-Z\textsuperscript{TM}: Hands-On Python In Data Science}
+		\item \enquote{Scrum Certification Prep \texttt{+} Scrum Master \texttt{+} Agile Scrum Training}
+	\end{itemize}
+	
+\end{changemargin}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+\section{Awards \& Certifications}
+
+\begin{tabular}{rl}
+	
+	2020	 & \textbf{Black and Gold Award}\\ & \textit{Sport Sheffield} \\ \\
+	
+	%------------------------------------------------	
+	
+	2015	 & \textbf{Distinction in grade 8 piano}\\ & \textit{ABRSM}
+\end{tabular}\\[10pt]
+
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	REFERENCES
+%----------------------------------------------------------------------------------------
+
+\section{References}
+
+\begin{tabular}{rl}
+	Prof. Roger Moore	 & \textbf{Chair of Spoken Language}\\ &\textbf{Processing}\\
+	& The University of Sheffield\\ &Tel: \texttt{+}44 (0) 114 222 1807 \\ &Email: r.k.moore@sheffield.ac.uk \\ \\
+	
+	%------------------------------------------------
+	
+	Crystal Chan	 & \textbf{Senior Innovation Manager}\\
+	& HSBC Digital Hong Kong\\ & Tel: \texttt{+}852 9278 0355\\ & Email: crystalscchan@gmail.com
+\end{tabular}\\[10pt]
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % End right-hand side of the page
+
+\end{changemargin}
+
+\end{document}
