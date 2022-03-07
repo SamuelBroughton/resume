@@ -31,6 +31,8 @@
 \usepackage{tikz}     % Allows drawing the skill boxes
 \usepackage{csquotes}
 
+\renewcommand\refname{Publications}
+
 % Colors for links, text and headings
 \definecolor{text1}{HTML}{2b2b2b} % Main document font color, off-black
 
@@ -68,12 +70,13 @@
 % Contact information
 \moveleft.5\hoffset\centerline{\
   \includegraphics[scale=0.7, trim = 0mm 0.5mm 0mm 0mm]{earth213.pdf}
-  \href{https://sambroughton.com}{sambroughton.com\qquad}
+  \href{https://github.com/SamuelBroughton}{github.com/SamuelBroughton\qquad}
   \includegraphics[scale=0.025, trim = 0mm 25mm 0mm 0mm]{email19.pdf}
-  \href{mailto:broughtonjsam@gmail.com}{broughtonjsam@gmail.com\qquad}
+  \href{mailto:sbrought@pm.me}{sbrought@pm.me\qquad}
   \includegraphics[scale=0.014, trim = 0mm 25mm 0mm 0mm]{whatsapp.pdf}
   \href{tel:+447528767464}{\texttt{+}44 7528 767464}
 }
+\vspace{-5pt}
 
 %----------------------------------------------------------------------------------------
 
@@ -88,21 +91,27 @@
 
 \section{Work Experience}
 
-\begin{changemargin}{5pt}{5pt}
+\begin{changemargin}{1pt}{1pt}
 %------------------------------------------------
-% WORK EXPERIENCE 1
+% WORK EXPERIENCE 0
 %------------------------------------------------
 
-\vspace{5pt}
+%\vspace{5pt}
 \underline{\textbf{Pantheon Lab Limited}}\\
 \par
 \vspace{-10pt}
-AI Developer \hfill \textit{Nov 2020 -- Current}\\
-\vspace{-10pt}
+AI Researcher \hfill \textit{July 2021 -- Current}\\
+
+\vspace{-15pt}
+AI Developer \hfill \textit{Nov 2020 -- July 2021}\\
+\vspace{-15pt}
 
 \begin{itemize} \itemsep-2pt %reduce space between items
-	\item End-to-end voice conversion, involving auto-encoders, neural vocoders  and speaker encoders.
-	\item Use of Google Cloud Platform.
+	\item AI Voice Project Leader. 
+	\item SciTech Challenge 2021: Use of Transformer models to achieve the Cantonese ASR Best Performance Award (WER 1.3\%). Open-group Challenge Runner-up.
+	\item Increased the performance of current state-of-the-art any-to-any Voice Conversion models, improving on both speaker naturalness and similarity.
+	\item Other  responsibilities include the implementation of Automatic Speech Recognition, Neural Vocoding, Speaker Verification and Text-To-Speech models.
+	\item Full stack machine learning, from data preprocessing and model implementation to production.
 \end{itemize}
 	
 %------------------------------------------------
@@ -114,12 +123,11 @@ AI Developer \hfill \textit{Nov 2020 -- Current}\\
 \par
 \vspace{-10pt}
 Intern Researcher \hfill \textit{Jun 2020 -- Nov 2020}\\
-\vspace{-10pt}
+\vspace{-15pt}
 
 \begin{itemize} \itemsep-2pt %reduce space between items
   \item Generative adversarial networks for automatic speech recognition data augmentation.
   \item Improving on StarGAN Voice Conversion models.
-  \item Research style experimentation.
   \item Interspeech 2021 Submission: \enquote{Accented Data Augmentation for Speech Recognition using StarGAN Voice Conversion}.
 \end{itemize}
 
@@ -132,11 +140,11 @@ Intern Researcher \hfill \textit{Jun 2020 -- Nov 2020}\\
 \par
 \vspace{-10pt}
 Academic Assistant \hfill \textit{Sept 2019 -- June 2020}\\
-\vspace{-10pt}
+\vspace{-15pt}
 
 \begin{itemize} \itemsep-2pt %reduce space between items
-  \item Student Demonstrator for first year computer science students for the Web and Internet Technology module.
-  \item Student note taker for the Disability and Dyslexia Support Service.
+  \item Student Demonstrator for Computer Science 
+  %\item Student note taker for the Disability and Dyslexia Support Service.
 \end{itemize}
 
 %------------------------------------------------
@@ -148,13 +156,13 @@ Academic Assistant \hfill \textit{Sept 2019 -- June 2020}\\
 \par
 \vspace{-10pt}
  Industrial Placement Trainee \textit{\hfill Sept 2018 -- July 2019} \\
-\vspace{-10pt}
+\vspace{-15pt}
 
 \begin{itemize} \itemsep-2pt %reduce space between items
-  \item Image recognition and  food classification for the \textit{Offerbot}.
-  \item Independently built an e-signature capture frontend screen for Asia Pacific markets in React.
-  \item Benchmarking an internal NLP intent recognition solution against certain cloud providers using the Haskell programming and grammars to produce a dummy dataset.
-  \item Backend Software Development: use of Java Spring and Integration Frameworks for the creation of restful APIs and handling internal bank processes, respectively.
+  \item Independently implemented a web scraper and image recognition model based on fastai for the \textit{Offerbot}.
+  \item Independently built an e-signature capture frontend mobile screen for Asia Pacific markets in React.
+  \item Demonstrated the improved performance of a custom NLP intent recognition solution against various cloud providers. Use of Haskell grammars to produce a dataset.
+  \item Backend Software Development: Java Spring and Integration Frameworks for developing restful APIs.
   \item Agile frameworks and methodologies such as Scrum.
 \end{itemize}
 
@@ -167,11 +175,10 @@ Academic Assistant \hfill \textit{Sept 2019 -- June 2020}\\
 \par
 \vspace{-10pt}
 Part-time Developer \textit{\hfill Sept 2017 -- Dec 2020}\\
-\vspace{-10pt}
+\vspace{-15pt}
 
 \begin{itemize} \itemsep-2pt %reduce space between items
-  \item Designed and implemented websites for both UK and Hong Kong clients.
-  
+  \item Designed and implemented websites for both UK and Hong Kong clients.  
 \end{itemize}
 
 %----------------------------------------------------------------------------------------
@@ -186,33 +193,41 @@ Part-time Developer \textit{\hfill Sept 2017 -- Dec 2020}\\
 %	SKILLS
 %----------------------------------------------------------------------------------------
 
+\begin{thebibliography}{1}
+	
+	\bibitem{latexGuide} Broughton, S.J., Jalal, M.A., Moore, R.K. (2021) Investigating Deep Neural Structures and their Interpretability in the Domain of Voice Conversion. Proc. Interspeech 2021, 806-810, \textit{doi: 10.21437/Interspeech.2021-1730}.
+	
+\end{thebibliography}
+
+
 \section{Education}
 
-\begin{changemargin}{5pt}{5pt}
+\begin{changemargin}{1pt}{1pt}
 
-\vspace{5pt}
-\underline{\textbf{National University of Singapore}} \hfill \textit{ 2021 --  2025}\\
-\par
-\vspace{-15pt}
+%\vspace{5pt}
+%\underline{\textbf{National University of Singapore}} \hfill \textit{ 2021 --  2025}\\
+%\par
+%\vspace{-15pt}
 
-\begin{itemize} \itemsep-2pt %reduce space between items
-	\item Part-time Doctor of Philosophy, Computer Science.
+%\begin{itemize} \itemsep-2pt %reduce space between items
+%	\item Part-time Doctor of Philosophy, Computer Science.
 
-\end{itemize}
+%\end{itemize}
 
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION 0
 %----------------------------------------------------------------------------------------
 
-\vspace{5pt}
+%\vspace{5pt}
 \underline{\textbf{The University of Sheffield}} \hfill \textit{ 2016 --  2020}\\
 \par
 \vspace{-15pt}
 
 \begin{itemize} \itemsep-2pt %reduce space between items
   \item (First Class Honours) B.Sc.\ Artificial Intelligence and Computer Science with a Year in Industry.
-  \item arXiv paper submission: \enquote{Investigating Deep Neural Networks and their Interpretability in the Domain of Voice Conversion}.
+  \item Awarded the Best UG Performance in the Dept. Computer Science, academic year 2019 / 2020.
+  %\item arXiv paper submission: \enquote{Investigating Deep Neural Networks and their Interpretability in the Domain of Voice Conversion}.
   \item Dissertation Project (scored 92\%): \enquote{Non-parallel Conditional Generative Adversarial Neural Networks for Voice Conversion}.
   \item High Performance Computing member.
   %\item Selected final year modules of interest (tools):
@@ -226,6 +241,15 @@ Part-time Developer \textit{\hfill Sept 2017 -- Dec 2020}\\
 %	EDUCATION 1
 %----------------------------------------------------------------------------------------
 	
+\vspace{5pt}
+\underline{\textbf{Gosforth Academy}}\\
+\par
+\vspace{-15pt}
+
+\vspace{5pt}
+A levels: Maths (A), Computing (A), Music (A).
+
+
 \vspace{5pt}
 \underline{\textbf{Online Courses}}\\
 \par
@@ -246,11 +270,13 @@ Part-time Developer \textit{\hfill Sept 2017 -- Dec 2020}\\
 
 \begin{tabular}{rl}
 	
-	2021     & \textbf{Singapore International Graduate Award}\\ & \textit{A*STAR} \\ \\
+	2021	& \textbf{ASR Best Performance Award}\\ & \textit{HKSTP SciTech Challenge 2021}\\ \\
 	
-	2020     & \textbf{Douglas Lewin Memorial Prize}\\ & \textit{The University of Sheffield} \\ \\
+	%2021     & \textbf{Singapore International Graduate Award}\\ & \textit{A*STAR} \\ \\
 	
-	2020	 & \textbf{Black and Gold Award}\\ & \textit{Sport Sheffield} \\ \\
+	2020     & \textbf{Douglas Lewin Memorial Prize}\\ & \textbf{for Best UG Performance} \\& \textit{The University of Sheffield} \\ \\
+	
+	% 2020	 & \textbf{Black and Gold Award}\\ & \textit{Sport Sheffield} \\ \\
 	
 	%------------------------------------------------	
 	
@@ -259,7 +285,7 @@ Part-time Developer \textit{\hfill Sept 2017 -- Dec 2020}\\
 	%------------------------------------------------	
 	
 	2015	 & \textbf{Distinction in grade 8 piano}\\ & \textit{ABRSM}
-\end{tabular}\\[10pt]
+\end{tabular}\\%[5pt]
 
 %----------------------------------------------------------------------------------------
 
@@ -271,13 +297,19 @@ Part-time Developer \textit{\hfill Sept 2017 -- Dec 2020}\\
 
 \begin{changemargin}{5pt}{5pt}
 	
-\vspace{5pt}
+%\vspace{5pt}
 
-Prof. Roger Moore \textit{(Supervisor)}\\
-\textbf{Chair of Spoken Language Processing}\\
-The University of Sheffield\\
-Tel: \texttt{+}44 (0) 114 222 1807\\
-Email: r.k.moore@sheffield.ac.uk\\
+Desmond Chan\\
+\textbf{Chief Technology Officer}\\
+Pantheon Lab Limited\\
+Tel: \texttt{+}852 6682 7240\\
+Email: contact@desmondchan.dev\\
+
+%Prof. Roger Moore \textit{(Dissertation Supervisor)}\\
+%\textbf{Chair of Spoken Language Processing}\\
+%The University of Sheffield\\
+%Tel: \texttt{+}44 (0) 114 222 1807\\
+%Email: r.k.moore@sheffield.ac.uk\\
 
 \end{changemargin}
 
